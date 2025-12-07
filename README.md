@@ -174,6 +174,7 @@ streamlit_app.py/
 1. 安装依赖包：
 ```bash
 pip install streamlit numpy matplotlib wordcloud jieba gensim scikit-learn tensorflow plotly pandas dashscope flair
+```
 
 2.配置API密钥：
 在项目根目录创建secre.toml文件，并添加以下内容：
@@ -185,9 +186,13 @@ streamlit run streamlit_app.py
 
 ## 团队协作建议
 1. 数据隔离：每位团队成员应使用独立账户，确保实验数据互不干扰
+
 2. 模型共享：训练好的模型保存在个人目录中，可通过文件共享方式交换
+
 3. 实验记录：利用结果保存功能记录重要实验参数和结果
+
 4. 版本控制：建议使用Git管理代码变更
+
 5. 功能开发：新增功能建议创建新的页面文件，遵循现有代码风格
 
 ## 注意事项
