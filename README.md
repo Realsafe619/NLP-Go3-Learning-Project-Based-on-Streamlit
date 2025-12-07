@@ -3,6 +3,7 @@
 这是一个基于 Streamlit 的自然语言处理(NLP)项目，包含了多个实验和应用模块，旨在帮助团队学习和实践NLP技术。
 
 ## 项目结构
+```bash
 streamlit_app.py/
 │
 ├── .streamlit/
@@ -44,7 +45,7 @@ streamlit_app.py/
 └── dataset.csv                       # Hw02 默认数据集
 └── stopwords.txt                     # Hw02 停用词
 └── user.json                         # 用户配置文件
-
+```
 
 
 ## 核心模块介绍
@@ -171,15 +172,17 @@ streamlit_app.py/
 
 ### 环境配置
 
-1. 安装依赖包：
+1.安装依赖包：
 ```bash
 pip install streamlit numpy matplotlib wordcloud jieba gensim scikit-learn tensorflow plotly pandas dashscope flair
 ```
 
 2.配置API密钥：
 在项目根目录创建secre.toml文件，并添加以下内容：
+```bash
 [secrets]
 DASHSCOPE_API_KEY = "your_dashscope_api_key_here"
+```
 
 3.运行项目
 ```bash
