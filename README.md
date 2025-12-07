@@ -181,8 +181,10 @@ pip install streamlit numpy matplotlib wordcloud jieba gensim scikit-learn tenso
 [secrets]
 DASHSCOPE_API_KEY = "your_dashscope_api_key_here"
 
-3. 运行项目：
+3.运行项目
+```bash
 streamlit run streamlit_app.py
+```
 
 ## 团队协作建议
 1. 数据隔离：每位团队成员应使用独立账户，确保实验数据互不干扰
